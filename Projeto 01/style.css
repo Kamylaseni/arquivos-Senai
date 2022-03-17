@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.embrulho{
+    width: 580px;
+  
+    margin: 0 auto;
+    /* Começo estilo do cabeçalho*/
+}
+body{
+    background-image:linear-gradient(45deg,rgba(025, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./imag\ fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#cabecalho-main{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    height: 250px;
+    justify-content: space-around;
+   
+}
+#foto-perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    
+}
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+/* Fim do estilo cabeçalho /*
+/* Começo estilo da sessão links */
+.link{
+    width: 100%;
+}
+.link>a{
+    display: block;
+    background-color: #ff0099;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+.link > a:hover{
+    background-color: #fff;
+    color:#ff0099
+}
+/* Fim do estilo da seção de links */
+/* Começo do estilo do rodapé */
+#rodape-símbolos{
+    display: flex;
+    justify-content: center;
+}
+.símbolo{
+    font-size: 30px;
+    color: #8200bf;
+    margin: 0 20px;
+}
+.símbolo:hover{
+    color: #c7c7c7;
+    opacity: 0.5;
+}
+
+
+
+
+
+ 
